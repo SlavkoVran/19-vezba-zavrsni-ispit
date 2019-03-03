@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    color: white;
+    width: 700px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+main {
+    color: white;
+    width: 700px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.table .table-striped th{
+    color: black;
+}
+
+.ime {
+    width: 200px;
+}
+
+.container1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container1 p{ 
+    flex: 3;
+    height: 20px;
+    width: 100px;
+    color: #87ec87;
+    font-size: smaller;
+}
+
+.container1 input{ 
+    flex: 1;
+    width: 100px;
+    text-align: center;
+
+}
+.container1 span{ 
+    flex: 2;
+    width: 100px;
+   
+
+}
+
+.ob{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+
+.btn {
+    margin: 10px 0px 10px 0px;
+    width: 200px;
+    height: 50px;
+    background-color: #87ec87;
+    color: white;
+    font-size: 1em;
+}
+
+.dugmici {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    border: 2px solid #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hidePrikaz {
+    display: none;
+}
+
+input {
+    margin: 15px;
+}
+
+.prikazForme {
+    background: #333;
+
+}
+
+@media(max-width: 800px) {
+    header {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}

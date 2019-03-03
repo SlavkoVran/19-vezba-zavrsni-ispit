@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Zavrsni ispit</title>
+</head>
+<body>
+
+    <header>
+        <h1>ZAVRŠNI ISPIT</h1>
+    </header>
+    <main>
+
+    <div class="dugmici" > 
+    <button id="unos" class="btn">UNOS</button>
+    <button id="prikaz" class="btn">PRIKAZ</button>
+</div>
+
+
+
+<div id="UnosPrikazPodataka" class="hidePrikaz prikazForme">
+<form >
+    <div class="container1">
+            <span>Ime i prezime</span>
+            <input type="text" class="ime" id="ime">
+            <p id="pIme"></p>
+    </div>
+   
+<div class="container1">
+        <span>Test broj 1</span>
+        <input type="number" id="unosTest1">
+        <p id="p1"></p>
+</div>
+<div class="container1">
+        <span>Test broj 2</span>
+        <input type="number" id="unosTest2" >
+        <p id="p2"></p>
+</div>
+    
+
+<div class="container1">
+        <span>Odbrana projekta</span>
+        <input type="number" id="odbranaProjekta">
+        <p id="p3"></p>
+</div>
+
+<p id="p4" class="ob"></p>
+    
+    <input type="button" value="SACUVAJ" id="sacuvaj" class="btn">
+</form>
+</div>
+
+
+</main>
+<div  id="prikazS" class=""></div>
+
+    
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
